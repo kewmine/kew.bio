@@ -1,0 +1,21 @@
+// opulo colors
+@import "opulo";
+
+// accents
+$snow: $color_01;
+$sakura: $color_10;
+$washed: $color_15;
+$clouds: $color_06;
+$shark: $color_07;
+$deep: $color_08;
+$toxic: $color_17;
+
+// theme
+$fg_color: $snow;
+$bg_color: $deep;
+$link_color: $color_03;
+$blinker_color: $toxic;
+
+// selection
+$selection_fg_color: $bg_color;
+$selection_bg_color: $fg_color;

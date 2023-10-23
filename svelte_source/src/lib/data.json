@@ -1,0 +1,16 @@
+{
+  "author": "kewmine",
+  "description": "wannabe security researcher hunting for the next 0day",
+  "domain": "kew.bio",
+  "email": "su@kew.bio",
+  "telegram": "kewmine",
+
+  "github": "kewmine",
+  "twitter": "kewmine",
+  "ctftime": "172844",
+
+  "forte": "web dev, exploit dev, re",
+  "codes_in": "rust, typescript, bash",
+  "my_ex": "python, cpp, java",
+  "what_else": "<redacted>"
+}
