@@ -21,7 +21,7 @@
         <div class="desc">
             A suckless link shortener with a hits counter built using rust, mongodb and svelte.
         </div>
-        <div class="link"> link: <a href="https://opulo.ink">pil.ink</a></div>
+        <div class="link"> link: <a href="https://pil.ink">pil.ink</a></div>
     </li>
 
     <li>
