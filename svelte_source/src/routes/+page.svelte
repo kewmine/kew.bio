@@ -10,7 +10,6 @@
             <div id="name">{Data["author"]}</div>
             <Blinker/>
         </div>
-        <div id="desc">{Data["description"]}</div>
     </div>
 </div>
 <Navbar/>

@@ -1,5 +1,7 @@
 {
   "author": "kewmine",
+  "site_desc": "kewmine's security blog",
+  "site_cover": "",
   "description": "wannabe security researcher hunting for the next 0day",
   "domain": "kew.bio",
   "email": "su@kew.bio",
