@@ -1,7 +1,7 @@
 {
   "author": "kewmine",
   "site_desc": "kewmine's security blog",
-  "site_cover": "",
+  "site_cover": "https://github.com/kewmine/kew.bio/blob/main/svelte_source/src/lib/static/cover.jpg?raw=true",
   "description": "wannabe security researcher hunting for the next 0day",
   "domain": "kew.bio",
   "email": "su@kew.bio",
@@ -10,6 +10,7 @@
   "github": "kewmine",
   "twitter": "kewmine",
   "ctftime": "172844",
+  "hackthebox": "200315",
 
   "forte": "web dev, exploit dev, re",
   "codes_in": "rust, typescript, bash",

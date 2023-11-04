@@ -4,6 +4,7 @@
     import Git_logo from "$lib/static/git.png"
     import Ctftime_logo from "$lib/static/ctftime.png"
     import Twitter_logo from "$lib/static/twitter.png"
+    import Hackthebox_logo from "$lib/static/hackthebox.png"
     import Data from "$lib/data.json";
 </script>
 
@@ -51,11 +52,16 @@
     </div>
 
     <div>
+        <a href="https://app.hackthebox.com/profile/{Data['hackthebox']}">
+            <img class="logo" src="{Hackthebox_logo}" alt="hackthebox"/>
+        </a>
+    </div>
+
+    <div>
         <a href="https://twitter.com/{Data['twitter']}">
             <img class="logo" src="{Twitter_logo}" alt="twitter"/>
         </a>
     </div>
-
 </div>
 
 <style lang="scss">
@@ -69,6 +75,7 @@
 
   .logo {
     border: 0.5vh solid $color_03;
+    border-radius: 10px;
     margin: 0.4vh;
     height: 4vh;
 
