@@ -2,41 +2,20 @@
   import Navbar from "$lib/modules/navbar.svelte";
   import Blinker from "$lib/modules/blinker.svelte";
   import Data from "$lib/data.json";
-
-  import { animate } from "motion";
-  import { browser } from "$app/environment";
-
-  if (browser) {
-    animate(
-      "section",
-      { opacity: 1, transform: "none" },
-      { delay: 0.5, duration: 0.9, easing: [0.17, 0.55, 0.55, 1] }
-    );
-  }
 </script>
 
-<section>
-  <div class="section">
-    <div id="display">
-      <div id="title">
-        <div id="name">{Data["author"]}</div>
-        <Blinker />
-      </div>
-      <div id="desc">{Data["description"]}</div>
+<div class="section">
+  <div id="display">
+    <div id="title">
+      <div id="name">{Data["author"]}</div>
+      <Blinker />
     </div>
+    <div id="desc">{Data["description"]}</div>
   </div>
-  <Navbar />
-</section>
+</div>
+<Navbar />
 
 <style lang="scss">
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-  }
-
   @import "$lib/modules/theme";
 
   #title {
