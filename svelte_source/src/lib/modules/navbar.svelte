@@ -1,8 +1,9 @@
 <nav>
-    <a class="item" href="/projects">PROJECTS</a>
-    <a class="item" href="/whoami">WHOAMI</a>
-    <a class="item" href="/connect">CONNECT</a>
-    <a class="item" href="/">HOME</a>
+  <a class="item" href="http://security.kew.bio">BLOG</a>
+  <a class="item" href="/projects">PROJECTS</a>
+  <a class="item" href="/whoami">WHOAMI</a>
+  <a class="item" href="/connect">CONNECT</a>
+  <a class="item" href="/">HOME</a>
 </nav>
 
 <style lang="scss">
@@ -19,7 +20,7 @@
 
   a {
     color: $fg_color;
-    padding: 1vh 2vh 1vh 2vh;
+    padding: 1vh 1vh 1vh 1vh;
     margin: 0;
 
     font-family: "IBM Plex Mono", monospace;
@@ -27,9 +28,9 @@
     font-size: 1.8vh;
   }
 
-  a:hover, a:active {
+  a:hover,
+  a:active {
     color: $bg_color;
     background-color: $clouds;
   }
-
 </style>

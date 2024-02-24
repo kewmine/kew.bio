@@ -8,7 +8,7 @@
     <img class="michi" src="{Michi}" alt="michi"/>
     <hr>
     <div id="content">
-        <div class="copyright"> Copyright © 2023</div><a href="https://{Data['domain']}">{Data["domain"]} </a>
+        <div class="copyright"> Copyright © 2024</div><a href="https://{Data['domain']}">{Data["domain"]} </a>
         <div id="divider">|</div>
         <a class="legal" href="/legal"> LEGAL </a>
     </div>
