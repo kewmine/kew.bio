@@ -1,5 +1,5 @@
 <nav>
-  <a class="item" href="http://security.kew.bio">BLOG</a>
+  <a class="item" href="##">BLOG</a>
   <a class="item" href="/projects">PROJECTS</a>
   <a class="item" href="/whoami">WHOAMI</a>
   <a class="item" href="/connect">CONNECT</a>
