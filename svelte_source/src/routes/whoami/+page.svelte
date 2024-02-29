@@ -6,6 +6,7 @@
   import Twitter_logo from "$lib/static/twitter.png";
   import Hackthebox_logo from "$lib/static/hackthebox.png";
   import Leetcode_logo from "$lib/static/leetcode.png";
+  import Linkedin_logo from "$lib/static/linkedin.png";
   import Data from "$lib/data.json";
 </script>
 
@@ -23,12 +24,12 @@
     </tr>
 
     <tr>
-      <th class="category"> regularly codes in:</th>
+      <th class="category"> codes in:</th>
       <th>{data["codes_in"]}</th>
     </tr>
 
     <tr>
-      <th class="category"> also worked with:</th>
+      <th class="category"> worked with:</th>
       <th> {data["my_ex"]}</th>
     </tr>
 
@@ -66,6 +67,11 @@
   <div>
     <a href="https://leetcode.com/{Data['leetcode']}">
       <img class="logo" src={Leetcode_logo} alt="twitter" />
+    </a>
+  </div>
+  <div>
+    <a href="https://www.linkedin.com/in/{Data['leetcode']}">
+      <img class="logo" src={Linkedin_logo} alt="twitter" />
     </a>
   </div>
 </div>
@@ -132,7 +138,7 @@
   .category {
     max-width: 20vh;
     color: $washed;
-    padding: 1vh 0vh 1vh 1vh;
+    padding: 1vh 0.5vh 0.2vh 1vh;
     font-family: "IBM Plex Mono", monospace;
     font-size: 0.9em;
 
